@@ -6,9 +6,8 @@ def solution(s):
         
         if v not in dic:
             ls.append(-1)
-            dic[v] = i
         else:
             ls.append(i - dic[v])
-            dic[v] = i
+        dic[v] = i
             
     return ls
