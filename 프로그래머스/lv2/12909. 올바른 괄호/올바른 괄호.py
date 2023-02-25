@@ -11,4 +11,4 @@ def solution(s):
             else:
                 del v[-1]                
     
-    return True if len(v) == 0 else False 
+    return len(v) == 0 
